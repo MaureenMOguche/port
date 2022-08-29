@@ -1,0 +1,136 @@
+@media (max-width: 760px) {
+    
+    .top{
+        display: block;
+    }
+
+    .inner-container{
+        position: relative;
+    }
+
+    #mobile-menu{
+        color: white;
+        font-size: 1.3rem;
+        border: 2px solid white;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: fixed;
+        right: 6rem;
+        cursor: pointer;
+    }
+    
+    .navigation{
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgb(33, 33, 33);
+        box-shadow: 0 0 10px wheat;
+        z-index: 2;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    
+    .topnav li, 
+    .topnav a{
+        display: block;
+        padding: 1rem 0 1rem 0;
+        width: 100%;
+    }
+    .topnav li a:hover{
+        background-color: rgb(179, 80, 4);
+    }
+  
+    .text-group{
+        /* position: relative;
+        top: 0;
+        transform: translateY(0%);
+        text-align: center; */
+        display: none;
+    }
+    .text-group{
+        /* transform: translateX(0%); */
+        display: none;
+    }
+    .text{
+        letter-spacing: 0;
+    }
+
+    .top{
+        height: 60%;
+    }
+    .topright{
+        width: 80%;
+        margin: 3rem auto 0 auto;
+    }
+    .topright img{
+        border-radius: 50%;
+        border-right: 4px solid rgb(179, 80, 4);
+    }
+  
+    .break{
+        display: none;
+    }
+
+    .myname{
+        padding-left: .5rem;
+    }
+    
+    .myname h1{
+        font-size: 1.8rem;
+
+    }
+
+    .bottom{
+        height: 40%;
+        display: block;
+    }
+
+    .box{
+        width: 15%;
+        height: 14%;
+        background-color: rgb(179, 80, 4);
+    }
+
+    .mob-buttons{
+        display: block;
+        margin: 1rem;
+        text-align: center;
+    }
+    .mob-buttons button{
+        padding: .25rem 1rem;
+        border-radius: .75rem;
+        border: none;
+        margin: 1rem .5rem;
+    }
+
+    li a.active::after{
+        display: none;
+    }
+
+    .topleft{
+        width: 100%;
+    }
+    .tools{
+        width: 90%;
+        position: absolute;
+        bottom: -37rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .tools img.tool-pic{
+        height: 1.2rem;
+    }
+    .tools h3{
+        padding-right: 1rem;
+    }
+
+}
