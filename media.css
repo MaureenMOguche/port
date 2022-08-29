@@ -6,6 +6,7 @@
 
     .inner-container{
         position: relative;
+        width: 95%;
     }
 
     #mobile-menu{
